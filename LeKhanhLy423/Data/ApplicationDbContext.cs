@@ -16,5 +16,6 @@ namespace DemoMvc.Data
 
         public DbSet<LeKhanhLy423.Models.Employee> Employee { get; set; } = default!;
         public DbSet<LeKhanhLy423.Models.BangTT> BangTT { get; set; } = default!;
+        public DbSet<LeKhanhLy423.Models.Nhanvien> Nhanvien { get; set; } = default!;
     }
 }

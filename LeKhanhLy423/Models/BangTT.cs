@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
 
 namespace LeKhanhLy423.Models
-{
+{ 
     public class BangTT
     {
         [Key]
