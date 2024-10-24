@@ -6,3 +6,7 @@ public class ErrorViewModel
 
     public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
 }
+
+
+
+//dotnet aspnet-codegenerator controller -name EmployeeController -m Employee -dc DemoMvc.Data.ApplicationDbContext --relativeFolderPath Controllers --useDefaultLayout --referenceScriptLibraries --databaseProvider sqlite
